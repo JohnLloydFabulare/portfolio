@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(for file:*)",
+      "Bash(do)",
+      "Bash(sed -i 's/<li><a href=\"\"..\\\\/index.html\"\">Home<\\\\/a><\\\\/li>/<li><a href=\"\"..\\\\/about.html\"\">About<\\\\/a><\\\\/li>\\\\n        <li><a href=\"\"..\\\\/my-works.html\"\">My Work<\\\\/a><\\\\/li>\\\\n        <li><a href=\"\"..\\\\/index.html\"\">Home<\\\\/a><\\\\/li>/g' \"$file\")",
+      "Bash(sed -i 's/<li><a href=\"\"..\\\\/about.html\"\">About<\\\\/a><\\\\/li>/<li><a href=\"\"..\\\\/about.html\"\">About<\\\\/a><\\\\/li>/g' \"$file\")",
+      "Bash(sed -i 's/<li><a href=\"\"..\\\\/contact.html\"\">Contact<\\\\/a><\\\\/li>/<li><a href=\"\"..\\\\/contact.html\"\">Contact<\\\\/a><\\\\/li>\\\\n        <li><a href=\"\"#services\"\">Services<\\\\/a><\\\\/li>/g' \"$file\")"
+    ]
+  }
+}
